@@ -27,9 +27,9 @@ const Name = ["KSB", "Kushagra"];
 
 // Objects
 
-{
-    name = "Ksb",
-    age = 21
+let obj = {
+    name: "Ksb",
+    age: 21
 }
 
 // OR 
@@ -50,3 +50,29 @@ console.log(typeof BigInt)
 console.log(typeof null)
 console.log(typeof undefined)
 console.log(typeof bigNum)
+
+
+
+// Stack ( Primitive ) ; Heap ( Non-Primitive)
+
+let name = "Kushagra"
+
+let anotherName = name
+
+anotherName = "KSB"
+console.log(name)
+console.log(anotherName)
+
+let myName=
+{
+    name : "Kushagra",
+    age : 21,
+    email : "abc@123"
+}
+
+let anotherObj = myName
+
+anotherObj.email = "thakurksb29@gmail.com"
+
+console.log(myName.email)
+console.log(anotherObj.email)
